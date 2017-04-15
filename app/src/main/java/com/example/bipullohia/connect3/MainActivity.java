@@ -85,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                 matchstatus.setText("Game Drawn");
             }
 
-
         }
     }
 
@@ -94,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        setTitle("Tic-Tac-Toe");
     }
 
     public void playAgain(View view) {
